@@ -1,8 +1,8 @@
-package pages.record
+package pages.record;
 
 import geb.Page
-import pages.GetPageTitle
 import rgms.member.Record
+import pages.GetPageTitle
 
 public class RecordPage extends Page {
     static url = "record/list"

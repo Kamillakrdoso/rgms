@@ -1,5 +1,6 @@
 package rgms.tool
 
+import rgms.messagesTwitter.MessagesTwitter
 import twitter4j.Status
 import twitter4j.Twitter
 import twitter4j.TwitterFactory

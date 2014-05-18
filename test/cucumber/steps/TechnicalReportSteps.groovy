@@ -1,13 +1,14 @@
-import pages.LoginPage
-import pages.PublicationsPage
+import pages.*
+import pages.member.*
 import pages.technicalReport.TechnicalReportCreatePage
 import pages.technicalReport.TechnicalReportEditPage
 import pages.technicalReport.TechnicalReportPage
 import pages.technicalReport.TechnicalReportShowPage
 import rgms.authentication.User
+import rgms.member.Member
 import rgms.publication.TechnicalReport
-import steps.TechnicalReportTestDataAndOperations
 import steps.TestDataAndOperations
+import steps.TechnicalReportTestDataAndOperations
 import steps.TestDataAndOperationsPublication
 
 import static cucumber.api.groovy.EN.*

@@ -1,5 +1,8 @@
 package rgms.publication
+
+import org.springframework.dao.DataIntegrityViolationException
 //#if($upXMLFerramenta)
+import rgms.XMLService
 //#end
 
 class FerramentaController {

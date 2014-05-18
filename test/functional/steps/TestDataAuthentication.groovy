@@ -3,6 +3,7 @@ package steps
 import org.apache.shiro.crypto.hash.Sha256Hash
 import rgms.authentication.User
 import rgms.member.Member
+import twitter4j.auth.BasicAuthorization
 
 class TestDataAuthentication{
     static users = [

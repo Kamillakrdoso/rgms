@@ -1,10 +1,11 @@
-import pages.BibtexImportPage
 import pages.LoginPage
 import pages.PublicationsPage
+import pages.BibtexImportPage
 import rgms.publication.*
 import steps.TestDataBibTexFile
 
 import static cucumber.api.groovy.EN.*
+import steps.TestDataAndOperations
 
 def LogInToPublication(){
     to LoginPage

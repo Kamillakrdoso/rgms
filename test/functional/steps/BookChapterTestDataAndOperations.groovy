@@ -4,9 +4,8 @@ import rgms.member.Member
 import rgms.publication.BookChapter
 import rgms.publication.BookChapterController
 import rgms.publication.PublicationController
-import rgms.publication.XMLController
-
 //#if($XMLUpload)
+import rgms.publication.XMLController
 //#end
 
 /**

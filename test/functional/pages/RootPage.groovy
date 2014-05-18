@@ -1,6 +1,7 @@
 package pages
 
 import geb.Page
+import geb.navigator.Navigator
 
 class RootPage extends Page {
     def loginPageTitle = /${(new GetPageTitle()).getMessageServerLocale("user.login.title")}/

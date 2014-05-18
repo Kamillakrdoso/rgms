@@ -1,8 +1,9 @@
 //#if($researchLine)
 package rgms.publication
 
-import rgms.EmailService
+import rgms.authentication.User
 import rgms.member.Member
+import rgms.EmailService
 
 class ResearchLineController {
 

@@ -1,6 +1,8 @@
 package rgms.publication
 
+import org.apache.shiro.SecurityUtils
 import org.springframework.dao.DataIntegrityViolationException
+import rgms.member.Member
 
 class ThesisOrDissertationController {
 

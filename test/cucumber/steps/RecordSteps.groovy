@@ -1,12 +1,9 @@
+import rgms.member.Record
+import rgms.member.Member
+import steps.RecordTestDataAndOperations
 import pages.LoginPage
 import pages.PublicationsPage
-import pages.record.RecordCreatePage
-import pages.record.RecordEditPage
-import pages.record.RecordPage
-import pages.record.RecordVisualizePage
-import rgms.member.Record
-import steps.RecordTestDataAndOperations
-
+import pages.record.*
 import static cucumber.api.groovy.EN.*
 
 Given(~'^the system has only one record with status "([^"]*)"$') { String status ->
